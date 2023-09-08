@@ -11,11 +11,11 @@ namespace WebApplication_DAY9.Controllers
         // GET: Test
         public ActionResult Index()
         {
-            //ViewBag.Message = "Hello, World!";
+			ViewBag.Message = "Hello, World! MVC";
 
-            return Content("Hello, World!");
+			//return Content("Hello, World!");
+            return View();
 
-
-        }
+		}
     }
 }
